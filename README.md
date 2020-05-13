@@ -1,2 +1,2 @@
-# webecProject
-This project was submitted for the web engineering module
+# webec-en-template
+template für die erfahrungsnote in webec

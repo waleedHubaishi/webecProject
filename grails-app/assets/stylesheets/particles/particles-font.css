@@ -1,0 +1,108 @@
+ /* =============================================================================
+	PARTICLES | MADAM MONOROM | monorom.com | HTML5 & CSS Project
+	This project is licensed under the MIT License 
+	(https://opensource.org/licenses/MIT) Copyright (c) 2016 monorom.com
+	
+	CONTENTS
+	- Text
+	- Text-align
+	- Images
+	- Video
+   =============================================================================*/  
+   
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url("../../font/font-awesome/css/font-awesome.css");
+
+html{
+	font-size:100%;
+	}
+
+p, h1, h2, h3, h4, h5 {
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
+	}
+p {
+    line-height:180%;
+	}
+h1{
+	font-weight: 300;
+	line-height:150%;
+	}
+h3, h4, h2 {
+	font-weight: 300;
+	}	
+h5, h6{
+	font-weight: 400;
+	}	
+h1 {
+	font-size: 2.7rem;
+	}	
+h2{
+	font-size: 2.2rem;
+	line-height:150%;
+	}		
+h3 {
+	font-size: 1.5rem;
+	line-height:150%;
+ 	}
+h4{
+	font-size: 1.2rem;
+	line-height:150%;
+	}	
+
+h5{
+	font-size: 1rem;
+	line-height:150%;
+	}
+h6{
+	font-size: .8rem;
+	line-height:150%;
+	}	
+	
+/* ---------------- text-align ---------------- */
+.center{
+	text-align: center;
+	}
+.left-text{
+	text-align: left;
+	}
+.right-text{
+	text-align: right;
+	}
+.valign-text{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	justify-content: space-around;
+  align-items: center;
+	min-height:100px;  
+	}	
+/* ---------------- video-images ---------------- */
+img.responsive{
+	max-width: 100%;
+	height:auto;
+	}
+.video-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 30px;
+   height: 0;
+   overflow: hidden;
+   }
+.video-container iframe,
+.video-container object,
+.video-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   }    
+   

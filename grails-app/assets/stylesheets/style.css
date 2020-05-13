@@ -1,0 +1,36 @@
+/* ======================================================
+	PARTICLES | MADAM MONOROM | monorom.com
+	HTML5 & CSS Project | Spring 2016 
+   ======================================================	*/ 
+body{
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color:#333;
+	}
+a {
+	color: #b18f6a;
+	text-decoration:none;
+	}
+a:visited {color:#b18f6a;}
+a:hover {color: #f7786b;}
+a:active { color:#78909C;}
+
+header,
+header a,
+header a:visited,
+footer a,
+footer a:visited {
+	color:#fff;
+	}
+footer{
+	color:#ddd;
+	}
+footer ul{
+	list-style-type:none;
+	padding:0;
+	margin: 0;
+	}
+footer li{
+    line-height:180%;
+	}	

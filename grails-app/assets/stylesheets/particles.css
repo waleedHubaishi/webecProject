@@ -1,0 +1,12 @@
+@import url("normalize.css");
+
+ /* =============================================================================
+	PARTICLES | MADAM MONOROM | monorom.com | HTML5 & CSS Project 
+	This project is licensed under the MIT License 
+	(https://opensource.org/licenses/MIT) Copyright (c) 2016 monorom.com
+   =============================================================================*/  
+
+@import url("particles/particles-font.css");
+@import url("particles/particles-grid.css");
+@import url("particles/particles-color.css");
+@import url("particles/particles-color16.css");
